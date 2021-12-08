@@ -1,0 +1,8 @@
+litmusdata_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g74b61b42c68a40_litmusdata_high.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-mumbai-1.oraclecloud.com, OU=Oracle ADB INDIA, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+litmusdata_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g74b61b42c68a40_litmusdata_low.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-mumbai-1.oraclecloud.com, OU=Oracle ADB INDIA, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+litmusdata_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-mumbai-1.oraclecloud.com))(connect_data=(service_name=g74b61b42c68a40_litmusdata_medium.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-mumbai-1.oraclecloud.com, OU=Oracle ADB INDIA, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+
+
