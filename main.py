@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 model = pickle.load(open('FSP_MODEL.pkl', 'rb'))
 
-cx_Oracle.init_oracle_client("/""Oracle database\instantclient_21_3")
+#cx_Oracle.init_oracle_client("/""Oracle database\instantclient_21_3")
 #cx_Oracle.init_oracle_client(r"/home/jupterbrothersds/Check/instantclient_21_4")
 
 
