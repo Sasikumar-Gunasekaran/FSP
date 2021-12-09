@@ -15,12 +15,12 @@ app = Flask(__name__)
 
 model = pickle.load(open('FSP_MODEL.pkl', 'rb'))
 
-cx_Oracle.init_oracle_client("/""Oracle database\instantclient_21_3")
+#cx_Oracle.init_oracle_client("/""Oracle database\instantclient_21_3")
 #cx_Oracle.init_oracle_client(r"/home/jupterbrothersds/Check/instantclient_21_4")
 
 
 
-connection = cx_Oracle.connect(user="ADMIN",password="Innowell123@",dsn="tcps://adb.ap-mumbai-1.oraclecloud.com:1522/g74b61b42c68a40_litmusdata_high.adb.oraclecloud.com?wallet_location=admin/")
+#connection = cx_Oracle.connect(user="ADMIN",password="Innowell123@",dsn="tcps://adb.ap-mumbai-1.oraclecloud.com:1522/g74b61b42c68a40_litmusdata_high.adb.oraclecloud.com?wallet_location=admin/")
 
 print("Successfully connected to Oracle Database")
 
@@ -31,7 +31,7 @@ def predict():
     return render_template('predict.html', pred=prediction)
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=3000,debug='true')
+    app.run(debug='true')
 
 
 #export LIBPATH=/home/jupterbrothersds/Oracle/innowell/instantclient_21_4:$LIBPATH
